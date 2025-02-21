@@ -12,9 +12,15 @@ car.color = "white";
 // Exercise 4: Update the 'year' property of the car object.
 car.year = 2001
 // Exercise 5: Create a method inside the car object that logs a sentence about the car.
-
+function carSen() {
+console.log(`My ${make} is a ${model} that is a ${year} model and it is ${color}`);
+}
 // Exercise 6: Create an object representing a person with properties: name, age, and address (as a nested object).
-
+let person = {
+name = "Anne";
+age = 30;
+address = "123 North Ave."; 
+}
 // Exercise 7: Access the street from the address property inside the person object.
 
 // Exercise 8: Add a method to the person object that returns their full name and age.
