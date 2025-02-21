@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 // Exercise 1: Create an object representing a car with properties: make, model, year.
 let car = {
 make = "Ford";
@@ -24,7 +24,8 @@ address = "123 North Ave.";
 // Exercise 7: Access the street from the address property inside the person object.
 console.log(person.address);
 // Exercise 8: Add a method to the person object that returns their full name and age.
-console.log(person.)
+console.log(person.name + person.age);
 // Exercise 9: Create an array of three book objects, each with properties: title, author, and pages.
-
+var myArray = [["Lord of the Rings", "J.R. Tolkien", 500],["Twilight", "Stephenie Meyer", 350], ["Vampire Diaries", "L.J. Smith", 200]];
 // Exercise 10: Log the title of the second book in the array.
+console.log(myArray[1][0]);
