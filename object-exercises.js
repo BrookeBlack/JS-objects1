@@ -1,9 +1,9 @@
 'use strict';
 // Exercise 1: Create an object representing a car with properties: make, model, year.
-let location = {
-name = Italy;
-food = pizza;
-activity = soccer;  
+let car = {
+make = "Ford";
+model = "F250";
+year = 2000;  
 }
 // Exercise 2: Access and log the 'model' property from the car object.
 
