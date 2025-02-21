@@ -6,7 +6,7 @@ model = "F250";
 year = 2000;  
 }
 // Exercise 2: Access and log the 'model' property from the car object.
-
+console.log(car.model);
 // Exercise 3: Add a new property 'color' to the car object and assign it a value.
 
 // Exercise 4: Update the 'year' property of the car object.
