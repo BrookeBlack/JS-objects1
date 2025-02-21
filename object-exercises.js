@@ -17,14 +17,14 @@ console.log(`My ${make} is a ${model} that is a ${year} model and it is ${color}
 }
 // Exercise 6: Create an object representing a person with properties: name, age, and address (as a nested object).
 let person = {
-name = "Anne";
+firstName = "Anne";
 age = 30;
 address = "123 North Ave."; 
 }
 // Exercise 7: Access the street from the address property inside the person object.
-
+console.log(person.address);
 // Exercise 8: Add a method to the person object that returns their full name and age.
-
+console.log(person.)
 // Exercise 9: Create an array of three book objects, each with properties: title, author, and pages.
 
 // Exercise 10: Log the title of the second book in the array.
