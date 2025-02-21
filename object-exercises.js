@@ -27,5 +27,9 @@ console.log(person.address);
 console.log(person.name + person.age);
 // Exercise 9: Create an array of three book objects, each with properties: title, author, and pages.
 var myArray = [["Lord of the Rings", "J.R. Tolkien", 500],["Twilight", "Stephenie Meyer", 350], ["Vampire Diaries", "L.J. Smith", 200]];
-// Exercise 10: Log the title of the second book in the array.
+
+let ourArray = {[title = "Twilight", aurthor = "Stephenie Myer", pages = 350}, {title = "Lord of the Rings", author = "J.R. Tolkien", pages = 500}, {title = "Vampire Diaries", author = "L.J. Smith", pages = 500}];
+ // Exercise 10: Log the title of the second book in the array.
 console.log(myArray[1][0]);
+
+console.log(ourArray[1].title);
