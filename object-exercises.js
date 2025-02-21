@@ -8,9 +8,9 @@ year = 2000;
 // Exercise 2: Access and log the 'model' property from the car object.
 console.log(car.model);
 // Exercise 3: Add a new property 'color' to the car object and assign it a value.
-
+car.color = "white";
 // Exercise 4: Update the 'year' property of the car object.
-
+car.year = 2001
 // Exercise 5: Create a method inside the car object that logs a sentence about the car.
 
 // Exercise 6: Create an object representing a person with properties: name, age, and address (as a nested object).
